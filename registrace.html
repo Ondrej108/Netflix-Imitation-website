@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/registrace.css" />
+    <title>Registratie</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+
+    <header class="header">
+      <div class="header-wrapper">
+        <div><img src="img/netflix-logo.png" alt="Netflix logo" /></div>
+        <div class="header-button">
+          <button id="regBtn">Startpagina</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN > FORM -->
+
+    <main class="hero-form">
+      <div class="form-wrapper">
+        <form>
+          <label for="fname">Voornaam</label><br />
+          <input id="fname" type="text" placeholder="Voornaam" required /><br />
+          <label for="lname">Achternaam</label><br />
+          <input
+            id="lname"
+            type="text"
+            placeholder="Achternaam"
+            required
+          /><br />
+          <label for="email">E-mailadres</label><br />
+          <input
+            id="email"
+            type="email"
+            placeholder="E-mailadres"
+            required
+          /><br />
+          <label for="uname">Gebruikersnaam</label><br />
+          <input
+            id="uname"
+            type="text"
+            placeholder="Gebruikersnaam"
+            required
+          /><br />
+          <label for="passForm1">Wachtwoord</label><br />
+          <input
+            type="password"
+            id="passForm1"
+            placeholder="Wachtwoord"
+            required
+            minlength="6"
+          /><br />
+          <label for="passForm2">Wachtwoord opnieuw</label><br />
+          <input
+            type="password"
+            id="passForm2"
+            placeholder="Wachtwoord opnieuw"
+            required
+            minlength="6"
+          /><br />
+          <input type="submit" value="Verzenden" class="submit-button" /> <br />
+        </form>
+      </div>
+    </main>
+
+    <script src="SRC/registrace.js" defer></script>
+  </body>
+</html>
