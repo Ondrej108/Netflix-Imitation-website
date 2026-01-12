@@ -1,2 +1,2 @@
 # Netflix-Imitation-website
-A portfolio Netflix imitation website created with HTML, CSS, and JavaScript as part of a front-end development course, focusing on responsive layout, clean design, and basic interactivity.
+A fully responsive travel agency website built with modern HTML5 and CSS3. Features include: CSS Grid, Flexbox , Responsive Design, etc...
