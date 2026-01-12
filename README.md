@@ -1,2 +1,2 @@
 # Netflix-Imitation-website
-A fully responsive travel agency website built with modern HTML5 and CSS3. Features include: CSS Grid, Flexbox , Responsive Design, etc...
+Responsive Netflix homepage clone with HTML, CSS & JavaScript - Features API integration, form handling, smooth scroll behavior, dynamic scroll-to-top button, event listeners, and DOM manipulation for interactive navigation.
